@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.norwegianiptv" name="Norwegian IPTV" version="1.6" provider-name="BlackoutWorm">
+ <extension point="xbmc.addon.repository"
+                name="Unfficial OpenELEC.tv Add-on Repository">
+                <info>https://offshoregit.com/Shani-08/main/addons.xml</info>
+                <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://offshoregit.com/Shani-08/main/zips/</datadir>
+        </extension>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Watch Norwegian TV channels for FREE</summary>
+    <description>Keep in mind that some streams are geo-restricted and may not work worldwide.</description>
+  </extension>
+</addon>
